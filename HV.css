@@ -1,0 +1,106 @@
+body{
+
+  background-image: url("background.jpg");
+}
+
+h1{
+  text-align: center;
+  color: white;
+  font-size: 100px;
+  font-style: italic;
+  font-display: swap;
+
+  }
+
+h2{
+  text-align:center;
+  font-style: italic;
+  font-size: 40px;
+  color: white;
+
+  }
+
+h3{
+  font-size: 13px;
+  color: green;
+  margin-right: auto;
+  }
+
+  h4{
+    font-size: 27px;
+    color: white;
+    margin-right: center;
+    /* background-color: gray; */
+    font-style: italic;
+    }
+  h5{
+    font-size: 25px;
+    color: white;
+    margin: center;
+    /* background-color: gray; */
+    font-style: italic;
+    }
+
+
+
+img{
+  margin:center;
+  height: 300px;
+}
+/* creates button */
+.button {
+    background-color: white; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: right;
+    text-decoration-color: gray;
+    display: inline-block;
+    font-size: 25px;
+    float: right;
+    transition-duration: 0.4s;
+    border-radius: 80px;
+}
+.options {
+  display: block;
+  border: 1px solid green;
+  background-color: white; /* Green */
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: right;
+  text-decoration: none;
+  font-size: 25px;
+  border-radius: 80px;
+  margin: right;
+}
+/*To dislay different pages HOme page */
+#home{
+  display:flex;
+  justify-content:center
+}
+/* button takes us to intro page */
+#START{
+  display:none;
+  justify-content: space-between
+}
+/*button takes us to level one   */
+#level1{
+  display:none;
+  justify-content: space-between}
+/*Save opion pickesd, save page shows up  */
+
+#save{
+  display:none;
+  justify-content: space-between
+}
+/*Take advantage webpage  */
+#take{
+  display:none;
+  justify-content: space-between
+}
+/* Walk away straight to level 2 */
+#walk{
+  display:none;
+  justify-content: space-between
+}

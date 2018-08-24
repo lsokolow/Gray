@@ -1,0 +1,76 @@
+body{
+background-image: url("background.jpg")
+}
+img{
+  align-content: center;
+  width: 200;
+  height:100;
+}
+h1{
+  text-align: center;
+  text-decoration: underline;
+  color: white;
+  font-size: 80px;
+  font-style: italic;
+  font-display: swap;
+
+  }
+
+h2{
+  text-align:center;
+  font-style: italic;
+  font-size: 30px;
+  color: white;
+
+  }
+
+h3{
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  }
+
+  h4{
+    font-size: 27px;
+    color: white;
+    margin-right: center;
+    /* background-color: gray; */
+    font-style: italic;
+    text-align: center;
+    }
+  h5{
+    font-size: 25px;
+    color: white;
+    margin: center;
+    /* background-color: gray; */
+    font-style: italic;
+    }
+
+
+/* creates button */
+.button {
+    background-color: white; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    float: right;
+    transition-duration: 0.4s;
+    border-radius: 80px;
+}
+.options {
+  display: block;
+  border: 1px solid green;
+  background-color: white; /* Green */
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: right;
+  text-decoration: none;
+  font-size: 25px;
+  border-radius: 80px;
+  margin: right;
+}
